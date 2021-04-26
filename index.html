@@ -43,6 +43,129 @@
             <a href="" class="button">Discover more</a>
         </div>
     </div>
+    <div class="poster mt2">
+        <div class="poster__img">
+            <img src="schwarz.jpg" alt="">
+        </div>
+        <div class="poster__content">
+            <h3 class="bigtext">Titolo Poster</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eaque illum repudiandae, eligendi enim modi eum repellendus blanditiis similique a architecto, alias, harum odio nostrum quam sunt recusandae reprehenderit omnis.</p>
+            <a href="" class="button">Call to Action</a>
+        </div>
+    </div>
+
+
+    <div class="bgcover mt2">
+        <div class="bgcover__title">
+            <h3 class="bigtext tw">Titolo Bgcover</h3>
+        </div>
+        <div class="bgcover__text">
+            <h4 class="normaltext tw">Titolo paragrafo</h4>
+            <p class="tw">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nobis non dolorem laborum, voluptates nisi dignissimos sunt minima atque possimus beatae quos? Dolores earum voluptates saepe consequatur provident repellendus voluptatibus.</p>
+            <h4 class="normaltext tw">Titolo paragrafo</h4>
+            <p class="tw">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nobis non dolorem laborum, voluptates nisi dignissimos sunt minima atque possimus beatae quos? Dolores earum voluptates saepe consequatur provident repellendus voluptatibus.</p>
+            <h4 class="normaltext tw">Titolo paragrafo</h4>
+            <p class="tw">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nobis non dolorem laborum, voluptates nisi dignissimos sunt minima atque possimus beatae quos? Dolores earum voluptates saepe consequatur provident repellendus voluptatibus.</p>
+        </div>
+    </div>
+
+
+    <div class="grid mt3">
+        <div class="col">
+          <h3 class="bigtext">Lorem ispums <br/> sia maet</h3>
+        </div>
+        <div class="col">
+          <p class="mt2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum tenetur sunt unde ut ducimus, fuga quia magni non reiciendis optio. Facilis accusamus vero quo, facere. Soluta molestiae inventore, sit rem!</p>
+        </div>
+    </div>
+
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="carousel-cell">Text</div>
+        <div class="carousel-cell">Text</div>
+        <div class="carousel-cell">Text</div>
+        <div class="carousel-cell">Text</div>
+        <div class="carousel-cell">Text</div>
+        <div class="carousel-cell">Text</div>
+    </div>
+
+
+    <div class="poster mt3">
+        <div class="poster__content">
+            <h3 class="bigtext">Titolo Poster</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eaque illum repudiandae, eligendi enim modi eum repellendus blanditiis similique a architecto, alias, harum odio nostrum quam sunt recusandae reprehenderit omnis.</p>
+            <a href="" class="button">Call to Action</a>
+        </div>
+        <div class="poster__img">
+            <img src="ester.jpg" alt="">
+        </div>
+    </div>
+
+
+    <div class="panel mt3">
+        <div class="grid panel">
+            <div class="col panel__dots">
+                <div class="dot">Text</div>
+                <div class="dot">Text</div>
+                <div class="dot">Text</div>
+                <div class="dot">Text</div>
+            </div>
+            <div class="col panel__text">
+                <div class="grid">
+                    <div class="col">
+                        <h3 class="tw bigtext">Lorem Ipsum</h3>
+                    </div>
+                    <div class="col">
+                        <p class="tw mt2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure est fugit debitis dolores cum aliquam? Vero odit tempora repellendus rem commodi quasi at voluptatibus, excepturi accusantium deserunt tempore nulla quaerat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="col">
+                <h4 class="midtext">Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut perspiciatis odit dolorum asperiores accusamus, libero nam beatae ab voluptatem, debitis voluptatum laudantium. Corrupti, possimus eum vel consequuntur quos ex! Odio.</p>
+            </div>
+            <div class="col">
+                <h4 class="midtext">Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut perspiciatis odit dolorum asperiores accusamus, libero nam beatae ab voluptatem, debitis voluptatum laudantium. Corrupti, possimus eum vel consequuntur quos ex! Odio.</p>
+            </div>
+            <div class="col">
+                <h4 class="midtext">Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut perspiciatis odit dolorum asperiores accusamus, libero nam beatae ab voluptatem, debitis voluptatum laudantium. Corrupti, possimus eum vel consequuntur quos ex! Odio.</p>
+            </div>
+            <div class="col">
+                <h4 class="midtext">Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut perspiciatis odit dolorum asperiores accusamus, libero nam beatae ab voluptatem, debitis voluptatum laudantium. Corrupti, possimus eum vel consequuntur quos ex! Odio.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    
+
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js" integrity="sha512-cA8gcgtYJ+JYqUe+j2JXl6J3jbamcMQfPe0JOmQGDescd+zqXwwgneDzniOd3k8PcO7EtTW6jA7L4Bhx03SXoA==" crossorigin="anonymous"></script>
+
+    <script>
+    $( document ).ready(function() {
+        /* Open Panel */
+        $( ".hamburger" ).on('click', function() {
+        $(".menu").toggleClass("menu--open");
+        });
+    });
+
+    ScrollReveal().reveal('.reveal' , { distance: '50px', duration: 1500 , easing: 'cubic-bezier(0.215, 0.610, 0.355, 1)' });
+    </script>
+
+</body>
+</html>
 </body>
 
 </html> 
