@@ -109,6 +109,226 @@ h1,h2,h3,h4,h5,p{color: #000; padding-bottom: 30px;}
 .hero__content h1,
 .hero__content p{color: #fff}
 
+#bg-video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/* POSTER */
+
+.poster
+{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.poster__img
+{
+    width: 65%;
+    height: 100%;
+}
+.poster__img img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.poster__content
+{
+    width: 35%;
+    padding: 50px;
+}
+
+
+@media (max-width: 768px)
+{
+    .poster
+    {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .poster__img, .poster__content
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+/* BGCOVER */
+
+.bgcover
+{
+    display: flex;
+    padding: 100px 0;
+    background: linear-gradient(180deg, rgba(0,0,0,.7), rgba(0,0,0,0.7)),
+    url('bg-foto.jpg') center center;
+    background-size: cover;
+}
+
+.bgcover__text
+{
+    width: 65%;
+    padding: 30px;
+}
+
+.bgcover__title
+{
+    width: 35%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 768px)
+{
+    .bgcover
+    {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .bgcover__text 
+    {
+        width: 100%;
+    }
+
+    .bgcover__title
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+/* GRID */
+
+.grid
+{
+    display: flex;
+    max-width: 1350px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.grid 
+{
+    width: 100%;
+}
+
+.col
+{
+    width: 100%;
+}
+
+
+@media (max-width: 768px)
+{
+    .grid
+    {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+/* CAROUSEL */
+
+.main-carousel
+{
+    padding: 40px 0;
+}
+
+.carousel-cell
+{
+    height: 350px;
+    width: 350px;
+    background: red;
+    border-radius: 100%;
+    line-height: 350px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+
+
+
+/* PANEL */
+
+.panel
+{
+    background: #414141;
+    padding: 100px 30px;
+}
+
+.panel__text
+{
+    display: flex;
+    align-items: center;
+}
+
+.dot
+{
+    height: 250px;
+    width: 250px;
+    background: red;
+    border-radius: 100%;
+    line-height: 250px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* FOOTER */
+
+.footer
+{
+    background: #fff;
+    padding: 100px 0;
+}
+
+
+
+
+
+/* HELPERS */
+
+.mt1
+{
+    margin-top: 50px;
+}
+.mt2
+{
+    margin-top: 100px;
+}
+.mt3
+{
+    margin-top: 150px;
+}
+
+.tw
+{
+    color: #fff;
+}
 *,
 *:before,
 *:after {
